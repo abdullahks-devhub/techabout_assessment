@@ -1,0 +1,35 @@
+record_id,customer_id,domain,service,billing_cycle,amount,registered_on,renews_on,status,contact_email,notes
+R001,CUST1001,hostking.pk,Shared Hosting,12 months,"PKR 3,500",15/01/2025,15/01/2026,Active,ali@hostking.pk,
+R002,CUST1002,techzone.com.pk,VPS,12,"Rs. 12,000",06/15/2025,06/15/2026,active,sara@techzone.com.pk,legacy system B date fmt
+R003,CUST1003,webnest.pk,VPS,1,(1500),01/03/2026,01/04/2026,Active,imran@webnest.pk,customer refund issued
+R004,CUST1004,quickdomain.pk,SSL Certificate,12,,10/11/2025,10/11/2026,Pending Renewal,,amount missing from export
+R005,CUST1005,globalhost.com,VPS,1,$45.00,20/07/2026,20/08/2026,Active,john@globalhost.com,billed in USD not PKR
+R006,CUST1006,dawnnet.pk,Shared Hosting,12,"PKR 2,800",05/06/2026,05/07/2026,Active,uzma@dawnnet.pk,ambiguous day/month
+R007,CUST1007,fasthost.pk,Domain Registration,12,"PKR 1,200",03/04/2026,03/04/2027,Active,bilal@fasthost.pk,ambiguous day/month
+R008,CUST1008,cloudpk.pk,VPS,12,"PKR 9,000",31/02/2026,31/02/2027,Active,zain@cloudpk.pk,calendar-invalid date
+R009,CUST1042,sunrise.pk,Shared Hosting,12,"PKR 4,000",01/01/2026,01/01/2027,Active,hina@sunrise.pk,billing system A
+R010,CUST1042,sunrise.pk,Shared Hosting,12,"PKR 4,200",01/01/2026,01/01/2027,Active,hina@sunrise.pk,billing system C re-export
+R011,CUST1009,HTTPS://WWW.Brightweb.PK/,SSL Certificate,12,"PKR 1,500",12/02/2026,12/02/2027,Active,noor@brightweb.pk,
+R012,CUST1010, skynet .pk ,Shared Hosting,12,"PKR 3,000",18/03/2026,18/03/2027,Active,haris@skynet.pk,whitespace in export
+R013,CUST1011,example..pk,VPS,12,"PKR 6,500",22/04/2026,22/04/2027,Active,fatima@example.pk,malformed domain
+R014,CUST1012,northstar.pk,Shared Hosting,12,"PKR 3,200",10/05/2025,10/05/2026,Cancelled,adeel@northstar.pk,customer cancelled mid-2025
+R015,CUST1013,pixelhost.pk,VPS,1,"PKR 2,000",08/08/2026,08/09/2026,SUSPENDED,rabia@pixelhost.pk,non-payment
+R016,CUST1014,domainly.pk,Domain Registration,12,"PKR 1,000",14/08/2025,14/08/2026,expired,kamran@domainly.pk,
+R017,CUST1015,webforge.pk,SSL Certificate,12,"PKR 1,800",19/08/2025,19/08/2026,pending renewal,sana@webforge.pk,
+R018,CUST1016,brightpath.pk,Shared Hosting,12,"PKR 5,000",15/08/2025,15/08/2026,Active,tariq@brightpath.pk,in target window
+R019,CUST1017,stonegate.pk,VPS,1,"PKR 2,600",20/07/2026,20/08/2026,Cancelled,sadia@stonegate.pk,in-window date but cancelled
+R020,CUST1018,greenline.pk,Shared Hosting,12,"PKR 3,300",02/08/2025,02/08/2026,Active,farhan@greenline.pk,one day before window
+R021,CUST1019,bluewave.pk,Shared Hosting,12,"PKR 3,300",03/09/2025,03/09/2026,Active,mehwish@bluewave.pk,one day after window
+R022,CUST1020,ironclad.pk,Shared Hosting,12,"PKR 3,300",03/08/2025,03/08/2026,Active,waqas@ironclad.pk,exact window start
+R023,CUST1021,silverline.pk,Shared Hosting,12,"PKR 3,300",02/09/2025,02/09/2026,Active,ayesha@silverline.pk,exact window end
+R024,CUST1022,maplewood.pk,Domain Registration,1yr,"PKR 1,100",25/12/2025,25/12/2026,Active,usman@maplewood.pk,cycle needs normalizing
+R025,CUST1023,oakridge.pk,VPS,Monthly,"PKR 2,200",12/25/2025,12/25/2026,Active,amna@oakridge.pk,cycle needs normalizing
+R026,CUST1024,cedarhill.pk,Shared Hosting,,"PKR 3,600",05/01/2026,05/01/2027,Active,hamza@cedarhill.pk,cycle missing
+R027,CUST1025,pinevalley.pk,VPS,12,"PKR 15,000.00",09/02/2026,09/02/2027,Active,zara@pinevalley.pk,
+R028,CUST1026,riverbend.pk,Shared Hosting,12,Rs 2500 /-,14/03/2026,14/03/2027,Active,danish@riverbend.pk,informal amount notation
+R029,CUST1027,lakeside.pk,VPS,1,-800,21/04/2026,21/05/2026,Active,iqra@lakeside.pk,negative adjustment not parenthesized
+R030,CUST1042,sunrise.pk,VPS,1,"PKR 2,400",01/01/2026,01/02/2026,Active,hina@sunrise.pk,same customer+domain different service - not a dup
+R031,CUST1028,hilltop.pk,SSL Certificate,12,"PKR 1,600",28/05/2026,28/05/2027,Active,not-an-email,malformed contact email
+R032,,valleyview.pk,Shared Hosting,12,"PKR 3,100",02/06/2026,02/06/2027,Active,omar@valleyview.pk,customer_id missing from export
+R033,CUST1029,  VPS Hosting  ,vpshosting.pk,12,"PKR 7,000",11/07/2026,11/07/2027,Active,sami@vpshosting.pk,domain/service columns appear swapped from source system
+R034,CUST1030,badrecord.pk,Domain Registration,12,"PKR 1,300",32/13/2026,32/13/2027,Active,junaid@badrecord.pk,both day and month out of range
